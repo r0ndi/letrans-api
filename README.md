@@ -1,12 +1,13 @@
 # Letrans api
 
-Backend application with api to app to use as translation app which additionally can help in study and remembering translation phrases.
+Backend application with api to app to use as translation app which additionally can help in study and remembering translation phrases. 
+Integrations with: google, microsoft, google-rapid, offline translator. 
 
 ## Installation and usage guide for development
 
 Before start: 
 - Setup postgres database: [Postgres Docs](https://www.postgresql.org/docs/current/tutorial-start.html)
-- Clone this repository: `git clone https://gitlab.com/letrans-r0ndi/letrans-api`
+- Clone this repository: `git clone https://github.com/r0ndi/letrans-api`
 
 ```sh
 # cd into project
