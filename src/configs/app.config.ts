@@ -19,7 +19,7 @@ const appConfig = {
     POSTGRES_DATABASE: String(process.env.POSTGRES_DATABASE),
     MORGAN_FORMAT: String(process.env.NODE_ENV || "production") === "development" ? "dev" : "combined",
     MAILER_HOST: String(process.env.MAILER_HOST) || "smtp.ethereal.email",
-    MAILER_PORT: Number(process.env.MAILER_PORT) ?? 587,
+    MAILER_PORT: Number(process.env.MAILER_PORT) || 587,
     MAILER_USER_NAME: String(process.env.MAILER_USER_NAME),
     MAILER_USER_PASSWORD: String(process.env.MAILER_USER_PASSWORD),
     MAILER_MAIL_FROM_NAME: String(process.env.MAILER_MAIL_FROM_NAME),
