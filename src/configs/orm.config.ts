@@ -10,7 +10,7 @@ const config: ConnectionOptions = {
     password: String(appConfig.POSTGRES_PASSWORD),
     database: String(appConfig.POSTGRES_DATABASE),
     entities: ["dist/entities/*.entity.*", "entities/*.entity.*", "**/*.entity.*"],
-    migrations: ["dist/migrations/*.js"],
+    migrations: ["dist/migrations/*.js", "migrations/*.js", "**/*.js"],
 };
 
 export default config;
